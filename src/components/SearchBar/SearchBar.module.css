@@ -1,0 +1,23 @@
+.searchcontainer {
+    position: relative;
+    width: 250px;
+  }
+  
+  .searchcontainer input {
+    width: 100%;
+    padding: 10px 10px 10px 50px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .searchcontainer button {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
