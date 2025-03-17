@@ -1,0 +1,20 @@
+.ImageGalleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  margin: 0;
+  margin-top: 50px;
+}
+.ImageGalleryContainer li {
+  width: 250px;
+  height: 160px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
